@@ -1,0 +1,113 @@
+/*
+#160922-Cor menu lat
+#1c202f- Tela principal
+#494d59-Barra de scroll
+#1c2030=Menu pesquisa
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: #160922dc;
+   
+}
+main{
+    display: flex;
+    height: 100vh;
+    /* justify-content: center; */
+    position: relative;
+    
+}   
+img{
+    height: 20px;
+}
+.tela-principal{
+    display: flex;
+    height: 100vh;
+    border: 0.5px solid rgba(0, 0, 0, 0.863);
+    border-radius: 10px;
+}
+div#borda1{
+    padding: 15px;
+    border: 2px solid #313746;
+    border-bottom: 0px;
+    border-right: 0.5px solid rgba(0, 0, 0, 0.719);
+    width: 1000px;
+}
+div#barra-lateral{
+   height: 140%;
+   width: 150px;
+   background-color: #160922;
+   padding-right: 5px;
+}
+
+.barra-hor{
+    height: 1px;
+    border: 1px solid rgb(105, 100, 100);
+    width: 140px;
+}
+
+.barra-opc{
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+}
+.barra-opc > p{
+    text-align: center;
+}
+div#barra-lateral > p:hover{
+    cursor: pointer;
+    background-color: #232834a4;
+    border-radius: 6px;
+}
+.lateral-selecionado{
+    border-right: 2px solid rgb(0, 204, 255);
+    color:  rgb(0, 204, 255);
+}
+div#barra-header{
+    height: 15%;
+    width: 1000px;
+    background-color: #1c2030;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.863);
+}
+
+div#tela-inbox{
+    height: 100%;
+    width: 250px;
+    background-color: #1c202f;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid #313746;
+    
+}
+div#borda{
+    height: 100%;
+    border-right: 0.5px solid rgba(0, 0, 0, 0.863);;
+}
+div#tela-info{
+    width: 800px;
+    height: 100%;
+    background-color: #232834;
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid #313746;
+    border-left: 0px;
+}
+.inbox-item{
+    display: inline-block;
+    height: 1px;
+    border-bottom: 1px solid rgba(92, 89, 89, 0.514);
+    width: 230px;  
+    height: 90px;
+    margin-left: 10px; 
+}
+.inbox-header{
+    display: inline-block;
+    height: 1px;
+    border-bottom: 1px solid rgb(92, 89, 89);
+    width: 230px;  
+    height: 45px;
+    margin-left: 10px; 
+}
