@@ -91,10 +91,17 @@ div#barra-header{
     align-items: flex-end;
     gap: 20px;
     padding-left: 10px;
-
+    font-family: var(--fonte-padrao);
+    font-size: 0.8em;
+    
 }
 .menu-item{
-    color: white;
+    color: rgba(255, 255, 255, 0.938);
+}
+.menu-item:hover{
+    background-color: #232834;
+    border-radius: 6px;
+    cursor: pointer;
 }
 .menu-item-selecionado{
     border-bottom: 2px solid rgb(255, 255, 255);
