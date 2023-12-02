@@ -40,6 +40,7 @@ div#borda1{
     border-bottom: 0px;
     border-right: 0.5px solid rgba(0, 0, 0, 0.719);
     width: 1000px;
+    height: 125%;
 }
 div#barra-lateral{
    height: 140%;
@@ -62,7 +63,7 @@ div#barra-lateral{
     font-size: 0.8em;
 }
 
-div#barra-lateral > p:hover{
+.teste:hover{
     cursor: pointer;
     background-color: #232834a4;
     border-radius: 6px;
@@ -70,12 +71,34 @@ div#barra-lateral > p:hover{
 .selecionado{
     border-right: 2px solid rgb(0, 204, 255);
     color:  rgb(0, 204, 255);
+    
+    
 }
+.selecionado:hover{
+    cursor: grab;
+}
+.noticaSelecionada{
+    border-right: 2px solid rgb(0, 204, 255);
+    color:  rgb(0, 204, 255);
+}
+
 div#barra-header{
     height: 15%;
     width: 1000px;
     background-color: #1c2030;
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.863);
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    padding-left: 10px;
+
+}
+.menu-item{
+    color: white;
+}
+.menu-item-selecionado{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color:  rgb(255,255,255);
 }
 
 div#tela-inbox{
@@ -139,3 +162,10 @@ p{
     color: rgba(255, 254, 254, 0.671);
     margin-bottom: 5px;
 }
+
+
+/*
+background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}*/
